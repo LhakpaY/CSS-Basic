@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External CSS added -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS basic</title>
+
+    <!-- embeded CSS -->
+    <!-- 2nd highest priority -->
+    <style>
+      p {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline CSS -->
+    <!-- inline CSS has more 1st priority -->
+    <div style="color: red">Very first paragraph</div>
+    <p>2nd Paragraph</p>
+    <p>3rd Paragraph</p>
+
+    <p>This is before the section</p>
+
+    <!-- only one id per value -->
+    <section>
+      <p class="pg">This is 4th paragraph</p>
+      <p id="fifth" class="pg">This is 5th paragraph</p>
+      <p>This is 6th paragraph</p>
+
+      <div>
+        <p>Nested paragraph in div</p>
+        <a href="http://google.com" target="_blank">Google</a>
+      </div>
+    </section>
+
+    <div>Div after the section</div>
+    <a href="./contact.html">Contact Us</a>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus modi
+      perferendis cum, quibusdam, doloribus accusantium commodi reiciendis esse
+      unde exercitationem laudantium, quasi quas totam assumenda enim
+      blanditiis? Maiores, reiciendis dicta!
+    </p>
+    <div>
+      <div>Lhakpa Yangjee Sherpa</div>
+      <p>The last paragraph in div</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/* 1. Basic selectors
+/* p {
+  color: palevioletred;
+}
+div {
+  background-color: aqua;
+} */
+
+/* To select the id need to use # */
+/* id has more priority */
+/* #fifth {
+  color: lavender;
+} */
+/* 
+.pg {
+  color: darkgoldenrod;
+}
+
+/* We can use !important to override #id */
+/* #fifth {
+  color: greenyellow !important;
+} */
+
+/* Descendant (space) */
+/* section p {
+  color: red;
+} */
+
+/* Child (>) */
+/* selection > p {
+  background: burlywood;
+} */
+
+/* Adjacent (+) */
+/* section + div {
+  color: cyan;
+  background: black;
+} */
+
+/* Siblings (~) */
+/* section ~ div {
+  color: orange;
+  background: black;
+} */
+
+/* inside the section selecting div and p */
+/* section > div p {
+  background-color: black;
+  color: pink;
+} */
+
+/* 3. Attribute Selection */
+/* Attribute-Name */
+/* [href] {
+  color: darkred;
+  font-size: 32px;
+}
+
+/* element[Attribute-Name] */
+/* a[href] {
+  text-decoration: none;
+} */
+
+/* [Attribute-Name = "Value"] */
+/* [href="contact.html"] {
+  background-color: bisque;
+} */
+
+/* 4. Pseudo-elements Selector */
+/* p::first-letter {
+  font-size: 20px;
+}
+p::first-line {
+  background-color: yellowgreen;
+} */
+
+/* Pseudo-class Selector */
+/* a:hover {
+  font-size: 32px;
+  color: blue;
+} */
+
+/* p:nth-child(1) {
+  color: black;
+} */
+/* p:nth-child(odd) {
+  color: black;
+} */
